@@ -1,1 +1,77 @@
+.footer {
+  background-color: rgb(21, 21, 21);
+  color: #fff;
+  padding: 20px 0;
+}
 
+.footer-container {
+  display: flex;
+  justify-content: center; /* Центрируем весь контент */
+  align-items: center; /* Центрируем элементы по вертикали */
+  flex-wrap: wrap; /* Для адаптивности */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* Расстояние между секциями */
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+  text-align: left; /* Выровнять текст по левому краю */
+}
+
+.footer-section h4 {
+  color: white;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin: 10px 0; /* Добавить равномерные отступы */
+}
+
+.footer-section a {
+  color: #1e90ff;
+  text-decoration: none; /* Убираем подчёркивание */
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+}
+
+.footer-section a:hover {
+  text-decoration: underline; /* Подчёркивание при наведении */
+}
+
+.bottom-footer img{
+  width: 20px;
+}
+
+.footer-logo-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center; /* Центрирует элементы по вертикали */
+  gap: 10px; /* Добавляет расстояние между логотипом и текстом */
+}
+
+.footer-logo-text {
+  margin: 0; /* Убираем отступы для заголовка */
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+.nij-footer {
+  display: flex;
+  justify-content: space-between;
+
+}

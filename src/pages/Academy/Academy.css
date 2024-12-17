@@ -1,0 +1,83 @@
+.Academe {
+    text-align: center;
+  }
+  
+  .Academe-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Academe-logo {
+      animation: Academe-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Academe-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Academe-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Academe-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .academi-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+
+  .academi-container-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .photo {
+    float: right;
+    margin-left: 50px;
+  }
+  
+  
+  .photo img {
+    top: 130px;
+    right: 30px;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .top-ul {
+    margin: 0;
+  }
+  
+  ul {
+    margin: 20px;
+  }
+  
+  .Academe {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+
+ul p {
+    padding: 5px 0px;
+}
